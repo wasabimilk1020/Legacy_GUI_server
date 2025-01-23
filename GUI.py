@@ -50,6 +50,8 @@ class TreeView:
     self.btn3 = QPushButton('사냥')
     self.btn4 = QPushButton('게임실행')
     self.btn5 = QPushButton('아이템분해')
+    self.btn5.setShortcut("F3")
+    self.btn5.setToolTip("단축키(F3)")
     self.btn6 = QPushButton('이벤트상점')
 
     self.btn7 = QPushButton('격전의섬')
@@ -57,6 +59,8 @@ class TreeView:
     self.btn9 = QPushButton('사망체크')
     self.btn10 = QPushButton('크루마')
     self.btn11 = QPushButton('스킬북분해')
+    self.btn11.setShortcut("F4")
+    self.btn11.setToolTip("단축키(F4)")
     self.btn12 = QPushButton('아이템삭제')
 
     self.btn13 = QPushButton('시즌패스')
