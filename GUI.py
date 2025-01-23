@@ -7,7 +7,6 @@ import io
 import base64
 import random
 import time
-import btnFcts
 import json
 
 class TreeView:
@@ -51,12 +50,12 @@ class TreeView:
     self.btn3 = QPushButton('사냥')
     self.btn4 = QPushButton('게임실행')
     self.btn5 = QPushButton('아이템분해')
-    self.btn6 = QPushButton('메뉴')
+    self.btn6 = QPushButton('이벤트상점')
 
     self.btn7 = QPushButton('격전의섬')
     self.btn8 = QPushButton('파괴된성채')
     self.btn9 = QPushButton('사망체크')
-    self.btn10 = QPushButton('이벤트던전')
+    self.btn10 = QPushButton('크루마')
     self.btn11 = QPushButton('스킬북분해')
     self.btn12 = QPushButton('아이템삭제')
 
