@@ -201,7 +201,7 @@ class TreeView:
           print("없는 키 검색!!")
         else:
           if(acc.checkState(0)!=0): #(체크되어 있으면 2 아니면 0을 반환)
-            self.nameList.append(name)
+            nameList.append(name)
       self.emitVal=[6]  #실행할 함수 선택 데이터
       self.emitVal.append(nameList)
       self.sio.emit("statusChk",0,to=self.pcList[self.tab_name])  #상태체크 중지
